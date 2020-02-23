@@ -5,5 +5,9 @@ authors = ["mental <m3nta1@yahoo.com>"]
 edition = "2018"
 build = "build.rs"
 
+[build-dependencies]
+bindgen = "0.53.1"
+meson = "1.0.0"
+
 [dependencies]
 libc = { version = "0.2", default-features = false, features = ["extra_traits", "const-extern-fn"] }
