@@ -6,4 +6,6 @@
 
 //! Raw Rust bindings around Lai.
 
+use libc;
+
 include!(concat!(env!("OUT_DIR"), "/raw_bindings.rs"));
